@@ -310,22 +310,26 @@ DELETE FROM "tasks" WHERE "tasks"."id" = 3;
 
 ### Step 10: Write the tests.
 
-- TODO: From here
-- TODO: Add igaiga text
+- Before this step, please learn the basics of RSpec by doing this material.
+  - English: https://github.com/neumann-tokyo/neumann-training/blob/main/ruby_and_rails/rspec_igaiga_en.md
+  - Japanese: https://github.com/neumann-tokyo/neumann-training/blob/main/ruby_and_rails/rspec_igaiga_ja.md
 - Get ready to write specs!
   - Prepare `spec/spec_helper.rb` and `spec/rails_helper.rb`.
 - Let's write a model spec for validation
   - We won't actually write many validation tests, but let's try to get a better understanding of the model spec.
+  - For example, add presence validation to name column on tasks table.
+  - Reference: https://guides.rubyonrails.org/active_record_validations.html
 - Let's try writing a system spec for a task function.
 - ~~Connect RSpec to GitHub Actions and have it send notifications to your channel on Discord.~~
   - You don't have to do this issue.
-- Reference books for those who want to learn more:
+- Optional: Reference books for those who want to learn more:
   - English: https://leanpub.com/everydayrailsrspec
   - Japanese: https://leanpub.com/everydayrailsrspec-jp
 
 ### Step 11: Let's make the Japanese part of our app common
 
 - Let's use the i18n mechanism in Rails to output validation error messages in Japanese or Nepalese.
+- Reference: https://guides.rubyonrails.org/i18n.html
 
 ### Step 12: Let's set the timezone for Rails
 
