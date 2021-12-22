@@ -1,1 +1,1 @@
-neumann-training
+# Training documents for Neumann internship
